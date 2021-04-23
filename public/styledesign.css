@@ -1,0 +1,199 @@
+h3.res {
+  color:#ac4142;
+}
+
+.myauthor {
+  font-weight:bold;
+}
+.journal {
+  font-style:italic;
+}
+
+p.pub {
+    font-size: 80%;
+}
+
+p.des {
+  font-size: 85%;
+}
+
+button.openaccess {
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ef6d00;
+  opacity:95%;
+  padding: 2px 12px;
+}
+
+.openaccess:hover {
+  background-color: white;
+  color: #ef6d00;
+}
+
+button.pdf {
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #ac4142;
+  opacity:95%;
+  padding: 2px 18px;
+}
+
+.pdf:hover {
+  background-color: white;
+  color: #ac4142;
+}
+
+button.doi {
+  color:white;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #345a7a;
+  opacity:85%;
+  padding: 2px 12px;
+}
+
+.doi:hover {
+  background-color: white;
+  color: #345a7a;
+}
+
+.accordion {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 2px 12px;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: black;
+  color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size:80%;
+}
+
+figcaption {
+  font-size:60%;
+}
+
+.divfr {
+  float: right;
+  padding: 15px; 
+}
+
+.containfig {
+  float: right;
+  text-align: center;
+  color: black;
+  display: block;
+  font-size:80%;
+}
+
+table, th, td {
+  border: none;
+  font-size:large;
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: white;
+}
+
+
+.myImg {
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  color: #ccc;
+  padding: 10px 0;
+  height: 100px;
+  font-size:medium;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+

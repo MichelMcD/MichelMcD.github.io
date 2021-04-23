@@ -25,6 +25,9 @@
         <link rel="alternate" type={% if config.feed_filename == "atom.xml" %}"application/atom+xml"{% else %}"application/rss+xml"{% endif %} title="RSS" href="{{ get_url(path=config.feed_filename) | safe }}">
       {% endif %}
 
+    <!-- IS IT OK TO USE THIS JQUERY THING??? -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
       {% block extra_head %}
       {% endblock extra_head %}
     </head>
@@ -81,25 +84,13 @@
 
         <div class="content container">
             {% block content %}
-                <div class="posts">
-                    {% for page in section.pages | reverse %}
-                      <div class="post">
 
-                        {{ page.description }}
+            {{ section.content  | safe }}
 
-
-                        <h1 class="post-title">
-                          <a href="{{ page.permalink }}">
-                            {{ page.title }}
-                          </a>
-
-                        </h1>
-
-                      </div>
-                    {% endfor %}
-                </div>
             {% endblock content %}
         </div>
+
+
 
     </body>
 

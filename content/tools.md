@@ -23,8 +23,42 @@ Guidelines for how to design Fact Boxes or Icon Arrays, and principles to improv
 
 #### Best practice guideline for developing fact boxes
 
-<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Rebitschek, F, Gigerenzer, G, & Wegwarth, O (2016). A simple tool for communicating the beneﬁts and harms of health interventions: A guide for creating a fact box. <SPAN class="journal">MDM Policy & Practice </SPAN>(1), 1-10. doi:10.1177/2381468316665365</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.sagepub.com/doi/pdf/10.1177/2381468316665365'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.sagepub.com/doi/10.1177/2381468316665365'" target="_blank" rel="noopener" >doi</button> </P>
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Rebitschek, F, Gigerenzer, G, & Wegwarth, O (2016). A simple tool for communicating the beneﬁts and harms of health interventions: A guide for creating a fact box. <SPAN class="journal">MDM Policy & Practice </SPAN>(1), 1-10. doi:10.1177/2381468316665365</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.sagepub.com/doi/pdf/10.1177/2381468316665365'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.sagepub.com/doi/10.1177/2381468316665365'" target="_blank" rel="noopener" >doi</button>  
+<button data-target="bibtex-panel-mcdowell2016a" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2016a" class="panel" style="display:block">
+  <pre> @article{mcdowell2016a,
+  title = {A Simple Tool for Communicating the Benefits and Harms of Health Interventions: A Guide for Creating a Fact Box},
+  author = {McDowell, Michelle and Rebitschek, Felix G. and Gigerenzer, Gerd and Wegwarth, Odette},
+  date = {2016-07-01},
+  journaltitle = {MDM Policy \& Practice},
+  volume = {1},
+  pages = {2381468316665365},
+  doi = {10.1177/2381468316665365},
+  number = {1}
+} </pre>
+</div>
 
 #### Best practices for presenting information in decision aids
 
 <P class="pub">Recently, Medical Decision Making published a series of papers updating the patient decision aids standards (IPDAS) including on <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X21996622">basing information comprehensive syntheses of evidence</a>, <a href="https://journals.sagepub.com/doi/pdf/10.1177/0272989X21996328">presenting probabilities</a>, and <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X21996342">challenges to presenting numbers</a> in patient decision aids. </P>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var target = this.getAttribute("data-target");
+    var panel = document.getElementById(target);
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>

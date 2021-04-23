@@ -1,0 +1,195 @@
++++
+title = "Risk and Evidence Communication"
+date = 2017-09-24
++++
+
+These projects relate to the design and evaluation of tools to communicate information about <a href="#risk">risk</a> and <a href="#uncertainty">uncertainty</a>, and for presenting information about <a href="#natfreq">conditional events</a> (e.g., conditional probabilities). We also redesigned a "Risk Profile" for communicating results from <a href="#riskassess">risk assessments</a>.
+
+<h3 class="res" id="risk"> Tools to improve comprehension of risks </h3>
+
+We have evaluated how well Fact Boxes and Icon Arrays improve people's comprehension of the benefits and harms of medical procedures or treatments. 
+
+<a href="https://www.hardingcenter.de/en/transfer-and-impact/fact-boxes"> Fact Boxes </a> present a summary of the best available evidence about the benefits and harms of medical procedures, treatments, or health behaviours in a simple table:
+
+<figure>
+<img class="myImg" src="/fb_mam.png" alt="Figure: Fact Box showing evidence of the benefits and harms of breast cancer screening." style="width:70%;max-width:800px">
+</figure>
+
+Evidence can also be visualised in Icon Arrays:
+
+<figure>
+<img class="myImg" src="/ia_mam.png" alt="Figure: Icon array showing evidence of the benefits and harms of breast cancer screening." style="width:70%;max-width:800px">
+</figure>
+
+#### Related Publications
+
+<P class="pub"> Brick, C., <SPAN class="myauthor">McDowell, M</SPAN>, & Freeman, A. L. (2020). Risk communication in tables vs. text: a Registered Report randomised trial on ’fact boxes’. <SPAN class="journal">Royal Society Open Science</SPAN>, 7:190876. doi:10.1098/rsos.190876 <br> <button class="openaccess" onclick="document.location='https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.190876'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://royalsocietypublishing.org/doi/10.1098/rsos.190876'" target="_blank" rel="noopener" >doi</button>
+<button data-target="bibtex-panel-brick2020" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-brick2020" class="panel" style="display:block">
+  <pre> @article{brick2020,
+  title = {Risk Communication in Tables versus Text: A Registered Report Randomized Trial on ‘fact Boxes'},
+  author = {Brick, Cameron and McDowell, Michelle and Freeman, Alexandra L. J.},
+  date = {2020},
+  journaltitle = {Royal Society Open Science},
+  shortjournal = {R. Soc. open sci.},
+  volume = {7},
+  pages = {190876},
+  doi = {10.1098/rsos.190876},
+  number = {3}
+} </pre>
+</div>
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Gigerenzer, G, Wegwarth, O, & Rebitschek, F (2019). Effect of tabular and icon fact box formats on comprehension of beneﬁts and harms of prostate cancer screening: A randomized trial. <SPAN class="journal">Medical Decision Making</SPAN>, 39(1), 41-56. doi:10.1177/0272989X18818166</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.sagepub.com/doi/pdf/10.1177/0272989X18818166'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://doi.org/10.1177/0272989X18818166'" target="_blank" rel="noopener" >doi</button>
+<button data-target="bibtex-panel-mcdowell2019" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2019" class="panel" style="display:block">
+  <pre> @article{mcdowell2019,
+  title = {Effect of Tabular and Icon Fact Box Formats on Comprehension of Benefits and Harms of Prostate Cancer Screening: A Randomized Trial},
+  author = {McDowell, Michelle and Gigerenzer, Gerd and Wegwarth, Odette and Rebitschek, Felix G.},
+  date = {2019},
+  journaltitle = {Medical Decision Making},
+  volume = {39},
+  pages = {41--56},
+  doi = {10.1177/0272989X18818166},
+  number = {1}
+} </pre>
+</div>
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Rebitschek, F, Gigerenzer, G, & Wegwarth, O (2016). A simple tool for communicating the beneﬁts and harms of health interventions: A guide for creating a fact box. <SPAN class="journal">MDM Policy & Practice </SPAN>(1), 1-10. doi:10.1177/2381468316665365</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.sagepub.com/doi/pdf/10.1177/2381468316665365'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.sagepub.com/doi/10.1177/2381468316665365'" target="_blank" rel="noopener" >doi</button>  
+<button data-target="bibtex-panel-mcdowell2016a" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2016a" class="panel" style="display:block">
+  <pre> @article{mcdowell2016a,
+  title = {A Simple Tool for Communicating the Benefits and Harms of Health Interventions: A Guide for Creating a Fact Box},
+  author = {McDowell, Michelle and Rebitschek, Felix G. and Gigerenzer, Gerd and Wegwarth, Odette},
+  date = {2016-07-01},
+  journaltitle = {MDM Policy \& Practice},
+  volume = {1},
+  pages = {2381468316665365},
+  doi = {10.1177/2381468316665365},
+  number = {1}
+} </pre>
+</div>
+
+<h3 class="res" id="uncertainty"> Formats for conveying uncertainty </h3>
+
+Our results suggest that it would not be detrimental to for risk communicators to communicate imprecision or conflicting estimates to the public. However, caution should be taken when communicating a lack of evidence, where people estimate treatment effects to be large in the absence of clear data. Further, tables, bar graphs, icon arrays that were adapted to incorporate uncertainty information all showed great promise for communicating these different types of uncertainty.
+
+{{ resize_image(path="../static/ia_unc.png", height=100, width=500, op="fit_width") }}
+<!-- <img src="/natfreq.png" padding:0> -->
+<figcaption> Figure. Example icon array to communicate about imprecision.</figcaption>
+
+#### Related Publications
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M </SPAN>& Kause, A. (in press). Communicating uncertainties about the effects of medical interventions using diﬀerent display formats. <SPAN class="journal">Risk Analysis</SPAN>. <button class="pdf" onclick="document.location='/pubs_pdf/McDowell2021_RAaccepted.pdf'">PDF</button></P>
+
+
+<h3 class="res" id="natfreq"> Natural Frequencies for communicating conditional probabilities </h3>
+
+It is possible to improve people’s inferences based on probabilistic information if conditional probabilities are presented as natural frequencies. Visual aids can help boost performance even further.
+
+{{ resize_image(path="../static/natfreq.png", height=100, width=700, op="fit_width") }}
+<!-- <img src="/natfreq.png" padding:0> -->
+<!-- Figure. Natural frequency tree and <br> icon array for presenting conditionl events. -->
+
+#### Related Publications
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Galesic, M, & Gigerenzer, G (2018). Natural frequencies do foster public understanding of medical tests: Comment on Pighin, Gonzales, Savadori and Girotto (2016). <SPAN class="journal">Medical Decision Making</SPAN>. 38(3), 390-399. doi:10.1177/0272989X18754508</SPAN> <br> <button class="pdf" onclick="document.location='/pubs_pdf/McDowell2018_Natfreqfost.pdf'" >PDF</button> <button class="doi" onclick="document.location='https://doi.org/10.1177/0272989X18754508'"target="_blank" rel="noopener" >doi</button>
+<button data-target="bibtex-panel-mcdowell2018" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2018" class="panel" style="display:block">
+  <pre> @article{mcdowell2018,
+  title = {Natural Frequencies Do Foster Public Understanding of Medical Tests: Comment on Pighin, Gonzalez, Savadori, and Girotto (2016)},
+  author = {McDowell, Michelle and Galesic, Mirta and Gigerenzer, Gerd},
+  date = {2018},
+  journaltitle = {Medical Decision Making},
+  shortjournal = {Med Decis Making},
+  volume = {38},
+  pages = {390--399},
+  doi = {10.1177/0272989X18754508},
+  number = {3}
+} </pre>
+</div>
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M </SPAN>& Jacobs, P (2017). Meta-analysis of the effect of natural frequencies on Bayesian reasoning. <SPAN class="journal">Psychological Bulletin</SPAN>, 143, 1273-1312. doi:10.1037/bul0000126</SPAN> <br> <button class="pdf" onclick="document.location='/pubs_pdf/McDowell2017_MA.pdf'" >PDF</button> <button class="doi" onclick="document.location='https://doi.org/10.1037/bul0000126'" target="_blank" rel="noopener" >doi</button>  
+<button data-target="bibtex-panel-mcdowell2017" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2017" class="panel" style="display:block">
+  <pre> @article{mcdowell2017,
+  title = {Meta-Analysis of the Effect of Natural Frequencies on {{Bayesian}} Reasoning},
+  author = {McDowell, M. and Jacobs, P.},
+  date = {2017},
+  journaltitle = {Psychological Bulletin},
+  shortjournal = {Psychol. Bull.},
+  volume = {143},
+  pages = {1273--1312},
+  doi = {10.1037/bul0000126}
+} </pre>
+</div>
+
+
+<h3 class="res" id="riskassess"> VisRisk: Communicating results of risk assessments </h3>
+
+In collaboration with the <a href="https://www.bfr.bund.de/en/press_information/2017/45/everyday_risks_at_a_glance___promoting_risk_literate_decisions_with_transparent_visualisations-202478.html">German Federal Institute for Risk Assessment</a>, we redesigned and evaluated a new "Risk Profile" to communicate results of risk assessments about food, feed, and consumer products. 
+
+#### In preparation
+
+<p class="pub">Ellermann, C, <SPAN class="myauthor">McDowell, M</SPAN>, Schirren, CO, Lindemann, A.-K, Koch, S, Lohmann, M, & Jenny, MA. <i>Redesign of a Risk Profile to communicate the results of risk assessments to the general public</i>. (manuscript in preparation).</p>
+
+<p class="pub">Schirren, CO, Jenny, MA, Ellermann, C, Lindemann, A-K, Koch, S, Lohmann, M, & <SPAN class="myauthor">McDowell, M</SPAN>.  <i>Communicating the results of risk assessments with a Risk Profile </i>. (manuscript in preparation).</p>
+
+
+
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+  <script>
+
+$(document).ready(function () {
+  // Get the modal
+  var modal = document.getElementById("myModal");
+  
+var img = $('.myImg');
+var modalImg = $("#img01");
+var captionText = document.getElementById("caption");
+$('.myImg').click(function(){
+    modal.style.display = "block";
+    var newSrc = this.src;
+    modalImg.attr('src', newSrc);
+    captionText.innerHTML = this.alt;
+});
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+});
+
+  </script>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    var target = this.getAttribute("data-target");
+    var panel = document.getElementById(target);
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>

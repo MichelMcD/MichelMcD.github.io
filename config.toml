@@ -21,10 +21,10 @@ highlight_code = false
 
 hyde_links = [
     {url = "/research", name = "Research"},
-    {url = "/tools", name = "Tools"},
-    {url = "/", name = "Publications"},
-    {url = "/", name = "Talks and Teaching"},
-    {url = "/", name = "Personal"},
+    {url = "/tools", name = "Tools and Guides"},
+    {url = "/publications", name = "Publications"},
+    {url = "/talks", name = "Talks and Teaching"},
+    {url = "/personal", name = "Personal"},
 
 ]
 hyde_theme = "theme-base-08"

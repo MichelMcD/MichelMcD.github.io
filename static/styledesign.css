@@ -79,11 +79,11 @@ button.doi {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  font-size:small;
+  font-size:80%;
 }
 
 figcaption {
-  font-size:80%;
+  font-size:60%;
 }
 
 .divfr {
