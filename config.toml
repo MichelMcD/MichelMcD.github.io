@@ -20,11 +20,11 @@ highlight_code = false
 # Put all your custom variables here
 
 hyde_links = [
-    {url = "/linksto", name = "Research"},
+    {url = "/research", name = "Research"},
     {url = "/tools", name = "Tools"},
-    {url = "https://google.fr", name = "Publications"},
-    {url = "https://google.fr", name = "Talks and Teaching"},
-    {url = "https://google.fr", name = "Personal"},
+    {url = "/", name = "Publications"},
+    {url = "/", name = "Talks and Teaching"},
+    {url = "/", name = "Personal"},
 
 ]
 hyde_theme = "theme-base-08"

@@ -84,10 +84,15 @@
                 <div class="posts">
                     {% for page in section.pages | reverse %}
                       <div class="post">
+
+                        {{ page.description }}
+
+
                         <h1 class="post-title">
                           <a href="{{ page.permalink }}">
                             {{ page.title }}
                           </a>
+
                         </h1>
 
                       </div>
