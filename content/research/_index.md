@@ -18,7 +18,7 @@ These projects focus on understanding what people know about or how they judge d
 
 <div class="post">        
 <h2 class="post-title">
-    <a href="http:&#x2F;&#x2F;127.0.0.1:1111&#x2F;research&#x2F;evidencecomm&#x2F;">
+    <a href="/research/evidencecomm">
       Risk and Evidence Communication
     </a>
   </h2>
