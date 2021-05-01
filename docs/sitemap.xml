@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://example.com/</loc>
+        <loc>https://michellemcdowell.eu/</loc>
     </url>
     <url>
-        <loc>https://example.com/personal/</loc>
+        <loc>https://michellemcdowell.eu/personal/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
     <url>
-        <loc>https://example.com/publications/</loc>
+        <loc>https://michellemcdowell.eu/publications/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
     <url>
-        <loc>https://example.com/research/</loc>
+        <loc>https://michellemcdowell.eu/research/</loc>
     </url>
     <url>
-        <loc>https://example.com/research/evidencecomm/</loc>
+        <loc>https://michellemcdowell.eu/research/evidencecomm/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
     <url>
-        <loc>https://example.com/research/riskliteracy/</loc>
+        <loc>https://michellemcdowell.eu/research/riskliteracy/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
     <url>
-        <loc>https://example.com/talks/</loc>
+        <loc>https://michellemcdowell.eu/talks/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
     <url>
-        <loc>https://example.com/tools/</loc>
+        <loc>https://michellemcdowell.eu/tools/</loc>
         <lastmod>2017-09-24</lastmod>
     </url>
 </urlset>
