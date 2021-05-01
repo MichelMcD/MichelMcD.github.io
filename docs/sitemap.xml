@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://example.com/</loc>
+    </url>
+    <url>
+        <loc>https://example.com/personal/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/publications/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/research/</loc>
+    </url>
+    <url>
+        <loc>https://example.com/research/evidencecomm/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/research/riskliteracy/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/talks/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+    <url>
+        <loc>https://example.com/tools/</loc>
+        <lastmod>2017-09-24</lastmod>
+    </url>
+</urlset>
