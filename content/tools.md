@@ -7,6 +7,12 @@ date = 2017-09-24
 
 <h3 class="res" id="tools"> Tools for developing risk communications </h3>
 
+<a href="/factbox"> <b> Guide to design a Fact Box: </b> </a>
+A Fact Box presents a simple tabular summary of the best available evidence about the benefits and harms of a medical procedure, treatment, or health behaviour. Here you can find a brief overview of the key features of a Fact Box to help you get started. 
+
+{{ resize_image(path="../static/fb_mam.png", height=100, width=600, op="fit_width") }}
+
+
 <a href="https://riskyr.org/"> <b> riskyr </b> </a>
 is an open source software developed in R with an accompanying interactive R Shiny app for developing interactive representations of risk-related information. The app was developed by:
 

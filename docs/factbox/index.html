@@ -91,20 +91,90 @@
         <div class="content container">
             
 <div class="post">
-  <h1 class="post-title">Tools and Guides</h1>
-  <p><a href="#tools">Tools</a> to help you design risk and uncertainty communications and <a href="#guides">guides</a> on best practices for designing communications.</p>
-<h3 class="res" id="tools"> Tools for developing risk communications </h3>
-<p><a href="/factbox"> <b> Guide to design a Fact Box: </b> </a>
-A Fact Box presents a simple tabular summary of the best available evidence about the benefits and harms of a medical procedure, treatment, or health behaviour. Here you can find a brief overview of the key features of a Fact Box to help you get started. </p>
-  <img src="https:&#x2F;&#x2F;michellemcdowell.eu&#x2F;processed_images&#x2F;08444dd46cd34fdd00.png" />
-<p><a href="https://riskyr.org/"> <b> riskyr </b> </a>
-is an open source software developed in R with an accompanying interactive R Shiny app for developing interactive representations of risk-related information. The app was developed by:</p>
-<p class="pub"> Neth, H., Gaisbauer, F., Gradwohl, N., & Gaissmaier, W. (2021). riskyr: A toolbox for rendering risk literacy more transparent. Social Psychology and Decision Sciences, University of Konstanz, Germany. Computer software (R package version 0.3.0, Mar. 23, 2021). Retrieved from <a href="https://CRAN.R-project.org/package=riskyr">https://CRAN.R-project.org/package=riskyr</a></p>
-<h3 class="res" id="guides"> Guidelines on designing risk communications </h3>
-<p>Guidelines for how to design Fact Boxes or Icon Arrays, and principles to improve public understanding and management of risk.</p>
-<h4 id="capur-expert-committee-principles-for-risk-management">CAPUR expert committee principles for risk management</h4>
-<P class="pub"> Ball, D., Humpherson, E., Johnson, B., <SPAN class="myauthor">McDowell, M</SPAN>, Ng, R., Radaelli, C., Renn, O., Seedhouse, D., Spiegelhalter, D., Uhl, Al. \& Watt, J. (2019, December). Improving Society's Management of Risks: A Statement of Principles. <SPAN class="journal">Collaboration to explore new avenues to improve public understanding and management of risk (CAPUR)</SPAN>. Atomium -- European Institute for Science, Media and Democracy. <br> <button class="pdf" onclick="document.location='https://tinyurl.com/capurstatement'" target="_blank" rel="noopener">PDF</button>
-<h4 id="best-practice-guideline-for-developing-fact-boxes">Best practice guideline for developing fact boxes</h4>
+  <h1 class="post-title">Developing a Fact Box</h1>
+  <p>A Fact Box presents a simple tabular summary of the best available evidence about the benefits and harms of a medical procedure, treatment, or health behaviour. When developing a Fact Box, there are a number of key features to keep in mind: </p>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<div class="slideshow-container">
+<div class="mySlides">
+  <div class="numbertext">1 / 7</div>
+  <img src="/BuildFB_1.png" style="width:100%">
+  <div class="captext">The Fact Box has the following key features..</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">2 / 7</div>
+  <img src="/BuildFB_2.png" style="width:100%">
+  <div class="captext">A clear reference class (e.g., to whom does the information refer?)</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">3 / 7</div>
+  <img src="/BuildFB_3.png" style="width:100%">
+  <div class="captext">List of benefits and harms, with equal weight given to both. </div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">4 / 7</div>
+  <img src="/BuildFB_4.png" style="width:100%">
+  <div class="captext">Comparison groups, such as a group who received a new treatment compared to a group who did not. </div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">5 / 7</div>
+  <img src="/BuildFB_5.png" style="width:100%">
+  <div class="captext">A measure of effect, such as how many people experienced the outcome in each group.</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">6 / 7</div>
+  <img src="/BuildFB_6.png" style="width:100%">
+  <div class="captext">Short summary statement, with care not to recommend a specific course of action.</div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">7 / 7</div>
+  <img src="/BuildFB_7.png" style="width:100%">
+  <div class="captext">State your sources and date of last update.</div>
+</div>
+<p><a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a></p>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+</div>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<br>
+<p> You can find more detailed guidance on how to develop a Fact Box here: </p>
 <P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN>, Rebitschek, F, Gigerenzer, G, & Wegwarth, O (2016). A simple tool for communicating the beneﬁts and harms of health interventions: A guide for creating a fact box. <SPAN class="journal">MDM Policy & Practice </SPAN>(1), 1-10. doi:10.1177/2381468316665365</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.sagepub.com/doi/pdf/10.1177/2381468316665365'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.sagepub.com/doi/10.1177/2381468316665365'" target="_blank" rel="noopener" >doi</button>  
 <button data-target="bibtex-panel-mcdowell2016a" class="accordion">bibtex</button></p>
 <div id="bibtex-panel-mcdowell2016a" class="panel" style="display:block">
@@ -119,27 +189,7 @@ is an open source software developed in R with an accompanying interactive R Shi
   number = {1}
 } </pre>
 </div>
-<h4 id="best-practices-for-presenting-information-in-decision-aids">Best practices for presenting information in decision aids</h4>
-<P class="pub">Recently, Medical Decision Making published a series of papers updating the patient decision aids standards (IPDAS) including on <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X21996622">basing information comprehensive syntheses of evidence</a>, <a href="https://journals.sagepub.com/doi/pdf/10.1177/0272989X21996328">presenting probabilities</a>, and <a href="https://journals.sagepub.com/doi/full/10.1177/0272989X21996342">challenges to presenting numbers</a> in patient decision aids. </P>
-<script>
-var acc = document.getElementsByClassName("accordion");
-var i;
 
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-
-    var target = this.getAttribute("data-target");
-    var panel = document.getElementById(target);
-
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
-}
-</script>
 </div>
 
         </div>
