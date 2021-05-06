@@ -3,8 +3,6 @@ title = ""
 date = 2017-09-24
 +++
 
-Other projects: 
-
 ### Beyond Rest
 
 [Beyond Rest](https://0io.eu/beyondrest/) is a travel blog about cycling.
