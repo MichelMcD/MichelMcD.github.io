@@ -1,9 +1,9 @@
 +++
-title = "Personal"
+title = ""
 date = 2017-09-24
 +++
 
-A few other interests of mine... 
+Other projects: 
 
 ### Beyond Rest
 
