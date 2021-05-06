@@ -26,6 +26,11 @@ Member of the CAPUR Scientific Committee, a collaboration of international exper
 
 <P class="pub"> Ball, D., Humpherson, E., Johnson, B., <SPAN class="myauthor">McDowell, M</SPAN>, Ng, R., Radaelli, C., Renn, O., Seedhouse, D., Spiegelhalter, D., Uhl, Al. \& Watt, J. (2019, December). Improving Society's Management of Risks: A Statement of Principles. <SPAN class="journal">Collaboration to explore new avenues to improve public understanding and management of risk (CAPUR)</SPAN>. Atomium -- European Institute for Science, Media and Democracy (EISMD). <br> <button class="pdf" onclick="document.location='https://tinyurl.com/capurstatement'" target="_blank" rel="noopener">PDF</button>
 
+Civic Statistics and Citizen Engagement: A Call for Action (2018). 
+
+<p class="pub"> I was invited to be part of the Roundtable Conference for the ProCivicStat project, an initiative funded by the <SPAN class="journal">European Commission ERASMUS+</SPAN> to explore ways to promote civic engagement by incorporating statistics about society into teaching curricula. </p>
+
+
 <h3 class="res" id="teach">Selected Teaching</h3>
 
 <table style="width:100%;">
