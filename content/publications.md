@@ -52,18 +52,58 @@ date = 2017-09-24
 } </pre>
 </div>
 
-### In preparation
+### Under review
 
-<P class="pub"> Ellermann, C., <SPAN class="myauthor">McDowell, M.</SPAN>, Schirren, C. O., Lindemann, A.-K., Koch, S., Lohmann, M., & Jenny, M. A. (in preparation). Redesign of a Risk Proﬁle to communicate the results of risk assessments to the general public.</P>
-
-<P class="pub"> Schirren, C. O., Jenny, M. A., Ellermann, C., Lindemann, A.-K., Koch, S., Lohmann, M., & <SPAN class="myauthor">McDowell, M.</SPAN>. (in preparation). Communicating the results of risk assessments with a Risk Proﬁle.</P>
-
-### In press
-
-<P class="pub"> <SPAN class="myauthor">McDowell, M </SPAN>& Kause, A. (in press). Communicating uncertainties about the effects of medical interventions using diﬀerent display formats. <SPAN class="journal">Risk Analysis</SPAN>. <button class="pdf" onclick="document.location='/pubs_pdf/McDowell2021_RAaccepted.pdf'">PDF</button></P>
+<P class="pub"> Schirren, C. O., Jenny, M. A., Ellermann, C., Lindemann, A.-K., Koch, S., Lohmann, M., & <SPAN class="myauthor">McDowell, M.</SPAN>. (under review). Communicating risk assessments results: A randomised trial of risk proﬁles.</P>
 
 
 ### Peer-reviewed publications
+
+
+<P class="pub"> Schneider, M., <SPAN class="myauthor">McDowell, M., </SPAN> Guttorp, P., Steel, A. E., & Fleischhut, N. (2022). Effective uncertainty visualization for aftershock forecast maps. <SPAN class="journal">PLOS ONE</SPAN>, 22(4). doi:10.5194/nhess-22-1499-2022</SPAN> <br> <button class="openaccess" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/nhess-22-1499-2022.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/'" target="_blank" rel="noopener" >doi</button> 
+<button data-target="bibtex-panel-schneider2022" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-schneider2022" class="panel" style="display:block">
+  <pre> @article{schneider2022,
+  title = {Effective uncertainty visualization for aftershock forecast maps},
+  author = {Schneider, Max and McDowell, Michelle and Guttorp, Peter and Steel, Ashley E and Fleischhut, Nadine},
+  date = {2022},
+  journaltitle = {Natural Hazards and Earth System Sciences},
+  volume = {22},
+  pages = {1499-1518},
+  doi = {10.5194/nhess-22-1499-2022},
+  number = {4}
+} </pre>
+</div>
+
+<P class="pub"> Ellermann, C., <SPAN class="myauthor">McDowell, M., </SPAN> Schirren, C. O., Lindemann, A.-K., Koch, S., Lohmann, M., & Jenny, M. A. (2022). Identifying content to improve risk assessment communications within the Risk Profile: Literature reviews and focus groups with expert and non-expert stakeholders. <SPAN class="journal">PLOS ONE</SPAN>, 17(4). doi:10.1371/journal.pone.0266800</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0266800&type=printable'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266800'" target="_blank" rel="noopener" >doi</button> 
+<button data-target="bibtex-panel-ellermann2022" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-ellermann2022" class="panel" style="display:block">
+  <pre> @article{ellermann2022,
+  title = {Identifying content to improve risk assessment communications within the Risk Profile: Literature reviews and focus groups with expert and non-expert stakeholders},
+  author = {Ellermann, Christin and McDowell, Michelle and Schirren, Clara O and Lindemann, Anna-Katrin and Koch, Severine and Lohmann, Mark and Jenny, Mirjam A},
+  date = {2022},
+  journaltitle = {PLOS ONE},
+  volume = {17},
+  pages = {e0266800},
+  doi = {10.1371/journal.pone.0266800},
+  number = {4}
+} </pre>
+</div>
+
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN> & Kause, A. (2021). Communicating uncertainties about the effects of medical interventions using different display formats. <SPAN class="journal">Risk Analysis</SPAN>, 41(12). doi:10.1111/risa.13739</SPAN> <br> <button class="openaccess" onclick="document.location='https://onlinelibrary.wiley.com/doi/epdf/10.1111/risa.13739'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://onlinelibrary.wiley.com/doi/10.1111/risa.13739'" target="_blank" rel="noopener" >doi</button> 
+<button data-target="bibtex-panel-mcdowell2021" class="accordion">bibtex</button></p>
+<div id="bibtex-panel-mcdowell2021" class="panel" style="display:block">
+  <pre> @article{mcdowell2021,
+  title = {Communicating Uncertainties About the Effects of Medical Interventions Using Different Display Formats},
+  author = {McDowell, Michelle and Kause, Astrid},
+  date = {2021},
+  journaltitle = {Risk Analysis},
+  volume = {41},
+  pages = {2220-2239},
+  doi = {10.1111/risa.13739},
+  number = {12}
+} </pre>
+</div>
 
 <P class="pub"> Luan, S., Yang, Y., Huang, Y., & <SPAN class="myauthor">McDowell, M</SPAN>. (2021). Public knowledge of stroke and heart attack symptoms in China: A cross-sectional survey. <SPAN class="journal">BMJ Open</SPAN>, 11:e043220. doi:10.1136/bmjopen-2020-043220</SPAN> <br> <button class="openaccess" onclick="document.location='https://bmjopen.bmj.com/content/bmjopen/11/1/e043220.full.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://bmjopen.bmj.com/content/11/1/e043220.full'" target="_blank" rel="noopener" >doi</button> 
 <button data-target="bibtex-panel-luan2021" class="accordion">bibtex</button></p>
