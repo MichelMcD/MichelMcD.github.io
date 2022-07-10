@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://michellemcdowell.eu/sitemap.xml
