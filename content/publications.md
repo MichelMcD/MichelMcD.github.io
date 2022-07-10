@@ -3,6 +3,13 @@ title = "Publications"
 date = 2017-09-24
 +++
 
+<ul>
+ <li> <a href="#peerrev">Peer-reviewed publications</a> </li>
+ <li> <a href="#bookchap">Book chapters</a> </li>
+ <li> <a href="#reports">Reports</a> </li>
+<li> <a href="#public">Public writings</a> </li>
+</ul>
+
 ### Key publications
 
 <P class="pub"> Brick, C., <SPAN class="myauthor">McDowell, M</SPAN>, & Freeman, A. L. (2020). Risk communication in tables vs. text: a Registered Report randomised trial on ’fact boxes’. <SPAN class="journal">Royal Society Open Science</SPAN>, 7:190876. doi:10.1098/rsos.190876 <br> <button class="openaccess" onclick="document.location='https://royalsocietypublishing.org/doi/pdf/10.1098/rsos.190876'" target="_blank" rel="noopener"> <i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://royalsocietypublishing.org/doi/10.1098/rsos.190876'" target="_blank" rel="noopener" >doi</button>
@@ -52,15 +59,20 @@ date = 2017-09-24
 } </pre>
 </div>
 
-### Under review
 
-<P class="pub"> Schirren, C. O., Jenny, M. A., Ellermann, C., Lindemann, A.-K., Koch, S., Lohmann, M., & <SPAN class="myauthor">McDowell, M.</SPAN>. (under review). Communicating risk assessments results: A randomised trial of risk proﬁles.</P>
+<h3 class="res" id="peerreview">Peer-reviewed publications</h3>
+
+<P class="pub">*Equal contribution &#1007Senior authorship</P>
+
+#### Under review
+
+<P class="pub"> Schirren, C. O., Jenny, M. A., Ellermann, C., Lindemann, A.-K., Koch, S., Lohmann, M., & <SPAN class="myauthor">McDowell, M.</SPAN>*&#1007 (under review). Communicating risk assessments results: A randomised trial of risk proﬁles.</P>
 
 
-### Peer-reviewed publications
+#### Published
 
 
-<P class="pub"> Schneider, M., <SPAN class="myauthor">McDowell, M., </SPAN> Guttorp, P., Steel, A. E., & Fleischhut, N. (2022). Effective uncertainty visualization for aftershock forecast maps. <SPAN class="journal">PLOS ONE</SPAN>, 22(4). doi:10.5194/nhess-22-1499-2022</SPAN> <br> <button class="openaccess" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/nhess-22-1499-2022.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/'" target="_blank" rel="noopener" >doi</button> 
+<P class="pub"> Schneider, M., <SPAN class="myauthor">McDowell, M., </SPAN> Guttorp, P., Steel, A. E., & Fleischhut, N. (2022). Effective uncertainty visualization for aftershock forecast maps. <SPAN class="journal">Natural Hazards and Earth System Sciences</SPAN>, 22(4), 1499-1518. doi:10.5194/nhess-22-1499-2022</SPAN> <br> <button class="openaccess" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/nhess-22-1499-2022.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://nhess.copernicus.org/articles/22/1499/2022/'" target="_blank" rel="noopener" >doi</button> 
 <button data-target="bibtex-panel-schneider2022" class="accordion">bibtex</button></p>
 <div id="bibtex-panel-schneider2022" class="panel" style="display:block">
   <pre> @article{schneider2022,
@@ -75,7 +87,7 @@ date = 2017-09-24
 } </pre>
 </div>
 
-<P class="pub"> Ellermann, C., <SPAN class="myauthor">McDowell, M., </SPAN> Schirren, C. O., Lindemann, A.-K., Koch, S., Lohmann, M., & Jenny, M. A. (2022). Identifying content to improve risk assessment communications within the Risk Profile: Literature reviews and focus groups with expert and non-expert stakeholders. <SPAN class="journal">PLOS ONE</SPAN>, 17(4). doi:10.1371/journal.pone.0266800</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0266800&type=printable'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266800'" target="_blank" rel="noopener" >doi</button> 
+<P class="pub"> Ellermann, C., <SPAN class="myauthor">McDowell, M.*, </SPAN> Schirren, C. O., Lindemann, A.-K., Koch, S., Lohmann, M., & Jenny, M. A. (2022). Identifying content to improve risk assessment communications within the Risk Profile: Literature reviews and focus groups with expert and non-expert stakeholders. <SPAN class="journal">PLOS ONE</SPAN>, 17(4). doi:10.1371/journal.pone.0266800</SPAN> <br> <button class="openaccess" onclick="document.location='https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0266800&type=printable'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266800'" target="_blank" rel="noopener" >doi</button> 
 <button data-target="bibtex-panel-ellermann2022" class="accordion">bibtex</button></p>
 <div id="bibtex-panel-ellermann2022" class="panel" style="display:block">
   <pre> @article{ellermann2022,
@@ -90,7 +102,7 @@ date = 2017-09-24
 } </pre>
 </div>
 
-<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN> & Kause, A. (2021). Communicating uncertainties about the effects of medical interventions using different display formats. <SPAN class="journal">Risk Analysis</SPAN>, 41(12). doi:10.1111/risa.13739</SPAN> <br> <button class="openaccess" onclick="document.location='https://onlinelibrary.wiley.com/doi/epdf/10.1111/risa.13739'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://onlinelibrary.wiley.com/doi/10.1111/risa.13739'" target="_blank" rel="noopener" >doi</button> 
+<P class="pub"> <SPAN class="myauthor">McDowell, M</SPAN> & Kause, A. (2021). Communicating uncertainties about the effects of medical interventions using different display formats. <SPAN class="journal">Risk Analysis</SPAN>, 41 (12), 2220-2239. doi:10.1111/risa.13739</SPAN> <br> <button class="openaccess" onclick="document.location='https://onlinelibrary.wiley.com/doi/epdf/10.1111/risa.13739'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://onlinelibrary.wiley.com/doi/10.1111/risa.13739'" target="_blank" rel="noopener" >doi</button> 
 <button data-target="bibtex-panel-mcdowell2021" class="accordion">bibtex</button></p>
 <div id="bibtex-panel-mcdowell2021" class="panel" style="display:block">
   <pre> @article{mcdowell2021,
@@ -105,7 +117,7 @@ date = 2017-09-24
 } </pre>
 </div>
 
-<P class="pub"> Luan, S., Yang, Y., Huang, Y., & <SPAN class="myauthor">McDowell, M</SPAN>. (2021). Public knowledge of stroke and heart attack symptoms in China: A cross-sectional survey. <SPAN class="journal">BMJ Open</SPAN>, 11:e043220. doi:10.1136/bmjopen-2020-043220</SPAN> <br> <button class="openaccess" onclick="document.location='https://bmjopen.bmj.com/content/bmjopen/11/1/e043220.full.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://bmjopen.bmj.com/content/11/1/e043220.full'" target="_blank" rel="noopener" >doi</button> 
+<P class="pub"> Luan, S., Yang, Y., Huang, Y., & <SPAN class="myauthor">McDowell, M.</SPAN>&#1007 (2021). Public knowledge of stroke and heart attack symptoms in China: A cross-sectional survey. <SPAN class="journal">BMJ Open</SPAN>, 11:e043220. doi:10.1136/bmjopen-2020-043220</SPAN> <br> <button class="openaccess" onclick="document.location='https://bmjopen.bmj.com/content/bmjopen/11/1/e043220.full.pdf'" target="_blank" rel="noopener"><i class="ai ai-open-access big-icon"> </i>PDF </button> <button class="doi" onclick="document.location='https://bmjopen.bmj.com/content/11/1/e043220.full'" target="_blank" rel="noopener" >doi</button> 
 <button data-target="bibtex-panel-luan2021" class="accordion">bibtex</button></p>
 <div id="bibtex-panel-luan2021" class="panel" style="display:block">
   <pre> @article{luan2021,
@@ -399,7 +411,14 @@ date = 2017-09-24
 } </pre>
 </div>
 
-### Book chapters
+<h3 class="res" id="bookchap">Book Chapters</h3>
+
+#### Upcoming
+
+<P class="pub"> Marignon, L., Frischemeier, D., <SPAN class="myauthor">McDowell, M</SPAN>., & Till, C. (upcoming), Dynamic, interactive trees and icon arrays for visualizing risks in civic statistics. In J. Ridgway (Ed.), <SPAN class="journal">Statistics for Empowerment and Social Engagement: Teaching Civic Statistics to Develop Informed Citizens</SPAN>. Springer.
+
+
+#### Published
 
 <P class="pub"> <SPAN class="myauthor">McDowell, ME </SPAN>(2016), Making sense of numbers about health risks – The fact box. In G. Elywyn, A. Edwards, & R. Thompson (Eds.), <SPAN class="journal">Shared decision-making in health care: Achieving evidence-based patient choice </SPAN>(3rd ed.) (pp.123-128). Oxford, UK: Oxford University Press.
 <button data-target="bibtex-panel-mcdowell2016" class="accordion">bibtex</button></p>
@@ -417,9 +436,20 @@ date = 2017-09-24
 } </pre>
 </div>
 
-### CAPUR expert committee principles for risk management
+<h3 class="res" id="reports"> Reports</h3>
+
+#### CAPUR expert committee principles for risk management
 
 <P class="pub"> Ball, D., Humpherson, E., Johnson, B., <SPAN class="myauthor">McDowell, M</SPAN>, Ng, R., Radaelli, C., Renn, O., Seedhouse, D., Spiegelhalter, D., Uhl, Al. \& Watt, J. (2019, December). Improving Society's Management of Risks: A Statement of Principles. <SPAN class="journal">Collaboration to explore new avenues to improve public understanding and management of risk (CAPUR)</SPAN>. Atomium -- European Institute for Science, Media and Democracy. <br> <button class="pdf" onclick="document.location='https://tinyurl.com/capurstatement'" target="_blank" rel="noopener">PDF</button>
+
+
+<h3 class="res" id="public"> Public writings</h3>
+
+<P class="pub"> Ellermann, C., <SPAN class="myauthor">McDowell, M</SPAN>, Schirren, C. O., & Jenny, M. A. (2021). Risks at a glance: Visualisations can make risk information more understandable, particularly for people with low numeracy and reading skills <SPAN class="journal">BfR2GO</SPAN>, Issue 2/2021, p16-17. German Federal Institute for Risk Assessment (BfR). <br> <button class="pdf" onclick="document.location='https://www.bfr.bund.de/epaper/bfr2go_02_2021_englisch/#page=18'" target="_blank" rel="noopener">PDF</button>
+
+<P class="pub"> Our work on visualising public health data was featured in Wired magazine: <br> Stetka, Bret (2015, 19 January). Charted: The Tricky Trade-Offs of Cancer Screenings and Treatments. <SPAN class="journal">Wired Magazine</SPAN>, January 2015 Issue, p19. <br> <button class="doi" onclick="document.location='https://www.bfr.bund.de/epaper/bfr2go_02_2021_englisch/#page=18'" target="_blank" rel="noopener" >Link</button>
+
+
 
 <script>
 var acc = document.getElementsByClassName("accordion");

@@ -1,5 +1,5 @@
 +++
-title = "Tools and Guides"
+title = "Resources"
 date = 2017-09-24
 +++
 

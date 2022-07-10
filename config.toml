@@ -21,8 +21,9 @@ highlight_code = false
 
 hyde_links = [
     {url = "/research", name = "Research"},
-    {url = "/tools", name = "Tools and Guides"},
+    {url = "/consultancy", name = "Consulting"},
     {url = "/publications", name = "Publications"},
+    {url = "/tools", name = "Resources"},
     {url = "/talks", name = "Talks and Teaching"},
     {url = "/personal", name = "Personal"},
 
